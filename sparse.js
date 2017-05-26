@@ -1,3 +1,4 @@
-﻿function preparePage(){
+﻿
+function preparePage() {
     $("p:contains('drill')").css("visibility", "hidden");
 }
