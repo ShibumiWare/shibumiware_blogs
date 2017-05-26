@@ -1,3 +1,1 @@
-﻿<script type="text/javascript">    
-    $("p:contains('drill')").css("visibility", "hidden");
-</script>
+﻿$("p:contains('drill')").css("visibility", "hidden");
