@@ -1,6 +1,4 @@
-﻿
-alert('hi dick');
-
-//function preparePage() {
-//    $("p:contains('drill')").css("visibility", "hidden");
-//}
+﻿<script type="text/javascript">
+    preparePage();
+    $("p:contains('drill')").css("visibility", "hidden");
+</script>
