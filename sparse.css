@@ -1,59 +1,59 @@
-﻿  body {
-      font: normal 10px Calibri;
-      line-height: 1.1;
-      background-color: white;
-      color: #4a4a4a;
-  }
+﻿body {
+    font: normal 10px Calibri;
+    line-height: 1.1;
+    background-color: white;
+    color: #4a4a4a;
+}
 
-  .home-link {
-      visibility: hidden;
-      display: none;
-  }
+.home-link {
+    visibility: hidden;
+    display: none;
+}
 
-  h3 {
-      visibility: hidden;
-      display: none;
-  }
+h3 {
+    visibility: hidden;
+    display: none;
+}
 
-  aside {
-      visibility: hidden;
-  }
+aside {
+    visibility: hidden;
+}
 
-  .downloads_container {
-      width: auto;
-      height: auto;
-      padding: 20px;
-  }
+.downloads_container {
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
 
-  .column-right-inner {
-      visibility: hidden;
-      display: none;
-  }
+.column-right-inner {
+    visibility: hidden;
+    display: none;
+}
 
-  .main-inner .fauxcolumn-right-outer {
-      width: 0;
-  }
+.main-inner .fauxcolumn-right-outer {
+    width: 0;
+}
 
-  .footer-outer {
-      visibility: hidden;
-      display: none;
-  }
+.footer-outer {
+    visibility: hidden;
+    display: none;
+}
 
-  .column-center-outer {
-      border: 0
-  }
+.column-center-outer {
+    border: 0
+}
 
-  .main-inner .columns {
-      padding-left: 0;
-      padding-right: 0;
-  }
+.main-inner .columns {
+    padding-left: 0;
+    padding-right: 0;
+}
 
-  .content-outer {
-      -moz-box-shadow: 0 0 40px transparent;
-      -moz-box-shadow: 0 0 40px transparent;
-      -webkit-box-shadow: 0 0 5px transparent;
-      -webkit-box-shadow: 0 0 5px transparent;
-      /* ReSharper disable once UnknownCssVendorExtension */
-      -goog-ms-box-shadow: 0 0 10px transparent;
-      margin-bottom: 1px;
-  }
+.content-outer {
+    -moz-box-shadow: 0 0 40px transparent;
+    -moz-box-shadow: 0 0 40px transparent;
+    -webkit-box-shadow: 0 0 5px transparent;
+    -webkit-box-shadow: 0 0 5px transparent;
+    /* ReSharper disable once UnknownCssVendorExtension */
+    -goog-ms-box-shadow: 0 0 10px transparent;
+    margin-bottom: 1px;
+}
