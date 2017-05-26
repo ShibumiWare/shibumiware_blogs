@@ -1,1 +1,4 @@
-﻿$("p:contains('drill')").css("visibility", "hidden");
+﻿
+function tryThis() {
+    alert('hi dick');
+}
