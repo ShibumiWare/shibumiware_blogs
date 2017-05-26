@@ -1,4 +1,3 @@
-﻿<script type="text/javascript">
-    preparePage();
+﻿<script type="text/javascript">    
     $("p:contains('drill')").css("visibility", "hidden");
 </script>
