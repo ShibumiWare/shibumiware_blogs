@@ -1,62 +1,81 @@
-﻿<!--<script src='https://code.jquery.com/jquery-1.12.1.<!--js'></script>-->
-<!--<script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>-->
+﻿<!--<script src='https://code.jquery.com/jquery-1.12.1.js'></script>
+<script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>-->
 
 <!--Start of Experimental-------------------------------------------------------------->
-<link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.css' rel='stylesheet' />
+<link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.css' rel='stylesheet'/>
 
-<style type="text/css">   
+<style type="text/css">
     body {
         background: #ffffff;
         background-color: #ffffff
     }
+
     .main {
-        background-color: #ffffff;        
+        background-color: #ffffff;
+        bottom: 0;
         height: 500px;
         width: 850px;
+        left: 0;
         margin: auto;
         position: absolute;
-        top: 0; left: 0; bottom: 0; right: 0;
+        right: 0;
+        top: 0;
+        width: 850px;
     }
-    .navigation {        
+
+    .navigation {
         background-color: #ffffff;
+        height: auto;
         width: auto;
-        height:auto
     }
-    .ui-widget { font-family: Calibri;
+
+    .ui-widget {
+        font-family: Calibri;
         font-size: 12px;
         height: 500px;
     }
 
-    .tabs {
-        height: 500px;
-    }
+    .tabs { height: 500px; }
 </style>
 <script>
-    $(function () {
+    $(function() {
         $("#tabs").tabs();
     });
+
+    $("#tabs-1").load("https://raw.githubusercontent.com/ShibumiWare/shibumiware_blogs/master/tabone.html");
 </script>
 
 <div class="main">
     <div class="navigation">
         <div id="tabs">
             <ul>
-                <li><a href="#tabs-1">Why Experimental?</a></li>
-                <li><a href="#tabs-2">What's Your Future Plans?</a></li>
-                <li><a href="#tabs-3">Are You Going Blog About This?</a></li>
+                <li>
+                    <a href="#tabs-1">Why Experimental?</a>
+                </li>
+                <li>
+                    <a href="#tabs-2">What's Your Future Plans?</a>
+                </li>
+                <li>
+                    <a href="#tabs-3">Are You Going Blog About This?</a>
+                </li>
+                <li>
+                    <a href="#tabs-3">Downloads</a>
+                </li>
             </ul>
             <div id="tabs-1">
-                
             </div>
             <div id="tabs-2">
-                <p></p>
             </div>
             <div id="tabs-3">
-                <p></p>
-                <p>
-                </p>
             </div>
+            <div id="tabs-4">
+            </div>
+
         </div>
     </div>
 </div>
+
+<script>
+    $("#tabs-1").load("https://raw.githubusercontent.com/ShibumiWare/shibumiware_blogs/master/tabone.html");
+</script>
 <!--End of Experimental---------------------------------------------------------------->
