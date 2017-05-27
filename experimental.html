@@ -1,34 +1,58 @@
-﻿<style type="text/css">   
+﻿<script src='https://code.jquery.com/jquery-1.12.1.js'></script>
+<script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+
+<!--Start of Experimental-------------------------------------------------------------->
+<link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.css' rel='stylesheet' />
+
+<style type="text/css">   
     .main {
-        background-color: #ffffff;
-        border: 2px solid #000000;
-        height: 700px;
-        width: 500px;
+        background-color: #ffffff;        
+        height: 500px;
+        width: 850px;
+        margin: auto;
+        position: absolute;
+        top: 0; left: 0; bottom: 0; right: 0;
     }
-    .navigation {
-        border: 1px solid maroon;
+    .navigation {        
         background-color: #ffffff;
         width: auto;
         height:auto
     }
+    .ui-widget { font-family: Calibri;
+        font-size: 12px;
+        height: 500px;
+    }
+
+    .tabs {
+        height: 500px;
+    }
 </style>
+<script>
+    $(function () {
+        $("#tabs").tabs();
+    });
+</script>
 
 <div class="main">
     <div class="navigation">
-        Test this again
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Why Experimental?</a></li>
+                <li><a href="#tabs-2">What's Your Future Plans?</a></li>
+                <li><a href="#tabs-3">Are You Going Blog About This?</a></li>
+            </ul>
+            <div id="tabs-1">
+                <p></p>
+            </div>
+            <div id="tabs-2">
+                <p></p>
+            </div>
+            <div id="tabs-3">
+                <p></p>
+                <p>
+                </p>
+            </div>
+        </div>
     </div>
 </div>
-
-<script type="text/javascript">
-
-    var parent = $('.content');
-    var parentDimensions = parent.height() * parent.width();
-
-    var child = $('.main');
-    var childDimensions = child.height() * child.width();
-
-    parent.html();
-
-    child.css({ top: parent.height() / 2 - child.height() / 2, left: parent.width() / 2 - child.width() / 2 });
-
-</script>
+<!--End of Experimental---------------------------------------------------------------->
