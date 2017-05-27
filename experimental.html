@@ -5,8 +5,9 @@
         height: 700px;
         width: 500px;
     }
-    .content {
+    .navigation {
         border: 1px solid maroon;
+        background-color: #ffffff;
         width: auto;
         height:auto
     }
@@ -20,13 +21,12 @@
     var child = $('.main');
     var childDimensions = child.height() * child.width();
 
-    parent.html();
-    child.html(childDimensions);
+    parent.html();    
 
     child.css({ top: parent.height() / 2 - child.height() / 2, left: parent.width() / 2 - child.width() / 2 });
 </script>
 
 <div class="main">
-    <div class="content"></div>
+    <div class="navigation"></div>
 </div>
 
