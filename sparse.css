@@ -30,6 +30,9 @@ aside {
     padding: 0;
 }
 
+div {
+    border: 0;
+}
 .column-right-inner {
     visibility: hidden;
     display: none;
