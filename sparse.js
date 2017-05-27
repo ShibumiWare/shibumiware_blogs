@@ -1,4 +1,4 @@
-﻿
-function tryThis() {
-    alert('hi dick chomp');
+﻿function hiChunk()
+{
+    alert('hi chunk!');
 }
