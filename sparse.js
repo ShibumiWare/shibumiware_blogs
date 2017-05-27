@@ -1,4 +1,4 @@
 ﻿
 function tryThis() {
-    alert('hi dick weed');
+    alert('hi dick chomp');
 }
